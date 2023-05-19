@@ -8,18 +8,18 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form action="">
+	<form action="post">
         <label for="name">Name</label>
         <input type="text" name="name" id="name" required placeholder="name"><br>
-        <label for="Email">Email</label>
+        <label for="email">Email</label>
         <input type="email" name="email" id="email" placeholder="Email"  required><br>
         <label for="Gender">Gender:</label>
         <input type="radio" name="gender" id="gender_m" checked required>
         <label for="male" name="gender">Male</label>
         <input type="radio" name="gender" id="gender_f">
         <label for="female">Female</label><br>
-        <label for="car-brands">Car Brands</label>
-        <select id="cars" name="car-brands" required>
+        <label for="cars">Car Brands</label>
+        <select id="cars" name="cars" required>
             <option value="" disabled selected hidden>--Please choose an option--</option>
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
@@ -27,15 +27,15 @@
         </select><br>
         <label for="age">Age:</label>
         <input type="number" name="age" id="age" placeholder="Age" required><br>
-        <label for="DOB">DOB:</label>
-        <input type="date" name="DOB" id="dob" required><br>
-        <label for="phone">Phone Number:</label>
-        <input type="number" name="phone" id="tel" placeholder="xxx-xxx-xxxx"><br>
+        <label for="dob">DOB:</label>
+        <input type="date" name="dob" id="dob" required><br>
+        <label for="tel">Phone Number:</label>
+        <input type="number" name="tel" id="tel" placeholder="xxx-xxx-xxxx"><br>
         <label for="password">Password</label>
         <input type="password" name="password" id="password" placeholder="Password" required><br>
-        <input type="checkbox" name="agree" id="tos" required>
-        <label for="agree">I agree to the TOS</label><br>
-        <input type="submit" name="submit" id="submit">
+        <input type="tos" name="tos" id="tos" required>
+        <label for="tos">I agree to the TOS</label><br>
+        <button type="submit">submit</button>
     </form>
     <script type="text/javascript" src="./script.js">
 </script>
